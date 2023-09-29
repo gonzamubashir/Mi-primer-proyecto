@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous"><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <div class="container-fluid">   
+            <div class="row">
+                <div class="col-sm-3">
+                    <select class="form-select form-select-sm border-light" id="seleccion">
+                        <option value="5" selected>Pokemon por generaciones</option>
+                        <option value="1">Primera generacion</option>
+                        <option value="2">Segunda generacion</option>
+                        <option value="3">Tercera generacion</option> 
+                        <option value="4">Cuarta generacion</option>            
+                    </select>
+                </div>
+                <div class="col-sm-1 text-start">
+                    <a href="https://www.gugler.com.ar/" target="_blank" role="button" class="text-dark">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>    
+    
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/img4.jpg" class="d-block w-100" alt="..." id="myimg">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-dark text-wrap text-break text-sm-center"></h5>
+                        <p class="text-dark text-wrap text-break text-sm-center"></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/img1.jpg" class="d-block w-100" alt="..." id="myimg">
+                    <div class="carousel-caption">
+                        <h5 class="text-light text-wrap text-break">¿Que es un Pokemon?</h5>
+                        <p class="text-light text-wrap text-break text-sm-center">Los Pokémon son una clase de criaturas inspiradas en animales reales, insectos, objetos, plantas o criaturas mitológicas con un sistema de evolución lamarckiano.</p> 
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/img2.jpg" class="d-block w-100" alt="..." id="myimg">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-light text-wrap text-break">¿Que es ser un Maestro Pokemon?</h5>
+                        <p class="text-light text-wrap text-break">Un entrenador Pokémon es, en el mundo de Pokémon, una persona que captura Pokémon con Poké Balls, los cría y los cuida, y también los entrena para combatir contra otros entrenadores que también tienen Pokémon.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/img3.jpg" class="d-block w-100" alt="..." id="myimg">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-light text-wrap text-break">¿Que es un Pokedex?</h5>
+                        <p class="text-light text-wrap text-break">es una enciclopedia virtual portátil de alta tecnología que los entrenadores Pokémon llevan consigo para registrar las fichas de todas las diversas especies Pokémon con las que se encuentran durante su viaje como entrenadores. En general, cuando se cumplen ciertos requisitos, la capacidad de la Pokédex se puede aumentar permitiendo almacenar datos de otros Pokémon, que no son comunes, como los legendarios y Pokémon que no son originarios de esa región.
+                            Este contenido proviene de wikidex.net, y debe darse atribución a sus autores, tal como especifica la licencia.
+                            Se prohíbe su uso a PlagioDex (el wiki de FANDOOM), por copiar reiteradamente sin dar atribución.</p>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    
+    <div class="container-fluid bg-primary">
+        <div class="row">
+            <div class="col-8">
+                <section>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col border border-dark" id="imagen"><img id="miImagen1" width="100" height="100" /></div>
+                            <div class="col border border-dark" id="imagen"><img id="miImagen2" width="100" height="100" /></div>
+                            <div class="col border border-dark" id="imagen"><img id="miImagen3" width="100" height="100" /></div>
+                            <div class="col border border-dark" id="imagen"><img id="miImagen4" width="100" height="100" /></div>
+                            <div class="col border border-dark" id="imagen"><img id="miImagen5" width="100" height="100" /></div>
+                        </div>
+                        <div class="row">
+                            <div class="col border border-dark" id="imagen"><img id="miImagen6" width="100" height="100" /></div>
+                            <div class="col border border-dark" id="imagen"><img id="miImagen7" width="100" height="100" /></div>
+                            <div class="col border border-dark" id="imagen"><img id="miImagen8" width="100" height="100" /></div>
+                            <div class="col border border-dark" id="imagen"><img id="miImagen9" width="100" height="100" /></div>
+                            <div class="col border border-dark" id="imagen"><img id="miImagen10" width="100" height="100" /></div>
+                        </div>
+                        <div class="row">
+                            <div class="col border border-dark" id="imagen"><img id="miImagen11" width="100" height="100" /></div>
+                            <div class="col border border-dark" id="imagen"><img id="miImagen12" width="100" height="100" /></div>
+                            <div class="col border border-dark" id="imagen"><img id="miImagen13" width="100" height="100" /></div>
+                            <div class="col border border-dark" id="imagen"><img id="miImagen14" width="100" height="100" /></div>
+                            <div class="col border border-dark" id="imagen"><img id="miImagen15" width="100" height="100" /></div>
+                        </div>
+                    </div>  
+                </section>        
+            </div>
+            <div class="col text-center">
+                <aside>
+                    <div class="">
+                        <form action="buscar.php" method="get" enctype="multipart/form-data" autocomplete="on">
+                            <input type="text" class="form-control text-center border-dark bg-primary" name="nombre" id="nombre" placeholder="Ingrese el numbre de un pokemon" />
+                            <div class="container-fluid border border-dark bg-primary" id="buscar"><button class="btn btn-primary text-center text-dark" type="button" id="button">Buscar Habilidades</button></div>
+                            <textarea class="form-control border border-dark bg-primary" nombre="habilidades" cols="40" rows="9" id="habilidades"></textarea>
+                        </form>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+        <footer>
+            <div class="container-fluid text-wrap" id="derechos">
+                <p>Mubashir Gonzalo       -                 Lab GUGLER             -           Todos los derechos a la API</p>
+            </div>
+        </footer>
+
+</body>
+</html>
