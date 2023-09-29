@@ -1,0 +1,30 @@
+# Mi-primer-proyecto
+#contacto{
+    width: 100%;
+    height: 95%;
+
+
+}
+#myimg {
+    height: 50vh;
+    width: 100%;
+  }
+
+#miImagen1, #miImagen2, #miImagen3,
+#miImagen4, #miImagen5, #miImagen6,
+#miImagen7, #miImagen8, #miImagen9,
+#miImagen10, #miImagen11, #miImagen12,
+#miImagen13, #miImagen14, #miImagen15{
+    position: relative;
+    left: 20px;
+
+}
+
+#imagen, #nombre, #buscar, #habilidades, #button{
+    border-radius: 10px;
+}
+
+#derechos{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
