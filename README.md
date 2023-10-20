@@ -5,4 +5,4 @@ HTML
 bootstrap
 jQuery.
 enlace:
-https://goemshir.260mb.net
+www.goemshir.260mb.net
