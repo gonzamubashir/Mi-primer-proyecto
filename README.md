@@ -4,5 +4,3 @@ Tecnologicas utilizadas
 HTML
 bootstrap
 jQuery.
-enlace:
-www.goemshir.260mb.net
